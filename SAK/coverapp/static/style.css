@@ -1,0 +1,105 @@
+
+body
+{
+    background: url('07c9f699-99b7-4db1-b1fa-82ea7247f535.jpg') center / contain no-repeat fixed;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+.cover
+{
+    padding-left: 700px;
+    padding-right: 700px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.head
+{
+    padding-top: 20px;
+    font-style: Montserrat;
+    color: rgb(55, 41, 67);
+    padding-left: 25px;
+}
+.text
+{
+    font-size: 16px;
+    text-align: center;
+    text-align: justify;
+    padding-left: 25px;
+    font-style:inherit
+}
+span
+{
+    background-color: rgb(137, 235, 207);
+}
+.quotes
+{
+    margin: 15px 0;
+    padding: 15px 15px;
+    background: rgb(105, 97, 97);
+    border-left: 6px solid rgb(188, 131, 206);
+    font-style: italic;
+}
+.author
+{
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+    
+}
+
+.author-box 
+{
+    display: flex;
+    gap: 8px;
+    background: rgb(237, 159, 173);
+    padding: 8px;
+    border-radius: 8px;
+    margin-top: 15px;
+    text-align: justify;
+    align-items: center;
+}
+.img 
+{
+    width: 410px;
+    height: 110px;
+    border-radius: 8px;
+    background-image: url('sakthi.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.author-name 
+{
+    color: rgb(203, 227, 137);
+    font-weight: bold;
+    font-size: 15px;
+}
+.footer 
+{
+    margin-top: auto;
+    background-color:rgb(54, 139, 158);
+    color: rgb(38, 37, 36);
+    padding: 5px 5px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-left 
+{
+    display: flex;
+    flex-direction: column;
+}
+.printed
+{
+    font-size: 14px;
+}
+.price 
+{
+    font-weight: bold;
+    color: rgb(180, 64, 28);
+    font-size: 18px;
+}
